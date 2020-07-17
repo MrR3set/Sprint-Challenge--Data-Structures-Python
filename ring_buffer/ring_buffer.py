@@ -19,14 +19,15 @@ class RingBuffer:
 
 
 
-# rb = RingBuffer(3)
+rb = RingBuffer(3)
 
-# rb.append("a")
-# rb.append("b")
-# rb.append("c")
-# rb.get()
-# rb.append("d")
-# rb.get()
-# rb.append('e')
-# rb.append('f')
-# rb.get()
+rb.append("a")
+rb.append("b")
+rb.append("c")
+print(rb.get())
+rb.append("d")
+print(rb.get())
+rb.append('e')
+rb.append('f')
+print(rb.get())
+
